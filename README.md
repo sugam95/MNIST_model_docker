@@ -1,7 +1,8 @@
 # MNIST_model_docker
 ## Instructions for running api
 
-1. Run the Dockerfile for creating the docker image
+1. Run the Dockerfile for creating the docker image 
+2. Command for builder docker image - sudo docker build -t docker-api -f Dockerfile .
 
 2. This Docker images will be running the model training and inference script as REST api
 
